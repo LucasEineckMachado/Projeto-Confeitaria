@@ -1,0 +1,466 @@
+/* Categoria 1: Ínicio e Cabeçalho*/
+html{
+    scroll-behavior: smooth;
+}
+
+.Corpo-Card{
+    background-color: #FCD4D4; 
+    background-attachment: fixed;
+    transition: background-color 0.5s;
+}
+
+header {
+    background-color: #ff009d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+span{
+    color: black;
+}
+
+.Icone3{
+    display: inline;
+    position: relative;
+    left: 30px;
+}
+
+.Icone4{
+    display: inline;
+    position: relative;
+    right: 25px;
+}
+
+.Desc3{
+    position: relative;
+    left: 30px;
+    font-family: Bubble;
+    color: cyan;
+    font-size: large;
+}
+
+.Desc4{
+    position: relative;
+    right: 5px;
+    font-family: Bubble;
+    color: cyan;
+    font-size: large;
+}
+
+/* Fim da Categoria 1*/
+
+/* Categoria 2: Main Principal: Seção 1: Estrutura geral, Atalhos e Configurações*/
+
+main{
+    color: transparent;
+    padding-bottom:  100px;
+}
+
+.MP{
+    border: #582965 inset 10px;
+}
+
+.Atalho1{
+    position: relative;
+    top: 100px;
+    right: 195px;
+}
+
+.Atalho2{
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+
+.Atalho3{
+    position: relative;
+    left: 170px;
+    top: 10px;
+}
+
+.Atalho1-Text{
+    position: relative;
+    top: 120px;
+    right: 273px;
+    font-size: x-large;
+    font-family: Bubble;
+}
+
+.Atalho2-Text{
+    position: relative;
+    top: 15px;
+    left: 43px;
+    font-size: x-large;
+    font-family: Bubble;
+}
+
+.Atalho3-Text{
+    position: relative;
+    top: 17px;
+    left: 83px;
+    font-size: x-large;
+    font-family: Bubble;
+}
+
+/*Fim da Seção 1*/
+
+/*Seção Extra: Seletor de Cores */
+
+.Icon-Config{
+    position: relative;
+    left: 397px;
+    bottom: 200px;
+}
+
+.Config{
+    position: relative;
+    bottom: 200px;
+    left: 570px;
+    font-family: Bubble;
+}
+
+#Seletor{
+    display: none;
+}
+
+.Seletor-Cor{
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+    background-color: white;
+    border-style: ridge;
+    border-color: black;
+}
+
+.Select-Cor{
+    width: 100px;
+    position: relative;
+    left: 670px;
+    top: 20px;
+}
+
+.Seletor1{
+    position: relative;
+    right: 50px;
+    top: 30px;
+}
+
+.Seletor2{
+    position: relative;
+    left: 40px;
+    bottom: 36px;
+}
+
+.Cor1{
+    height: 20px;
+    width: 20px;
+    border-width: 4px;
+    border-style:ridge;
+    position: relative;
+    bottom: 21px;
+    left: 25px;
+    background-color: #FCD4D4;
+}
+
+.Cor2{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 5px;
+    left: 25px;
+    border-width: 4px;
+    border-style:ridge;
+    background-color: aquamarine;
+}
+
+.Cor3{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 15px;
+    top: 5px;
+    border-width: 4px;
+    border-style:ridge;
+    background-color: lightcoral;
+}
+
+.Cor4{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 15px;
+    top: 21px;
+    border-width: 4px;
+    border-style:ridge;
+    background-color: lightsalmon;
+}
+
+
+/*Fim da Seção Extra*/
+
+
+/*Seção 2: Bolos*/
+
+.Bolos{
+    margin-top: 520px
+}
+
+.P1{
+    font-size: 50px;
+    position: relative;
+    left: 20px;
+}
+
+.Bolo1{
+    border-style:groove;
+    border-color: chocolate;
+    border-width: 10px;
+}
+
+.Chocolate{
+    position: relative;
+    right: 305px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: brown;
+}
+
+.Preço1{
+    position: relative;
+    right: 430px;
+    top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.Bolo2{
+    border-style:groove;
+    border-color: red;
+    border-width: 10px;
+}
+
+.Morango{
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: red;
+}
+
+.Preço2{
+    position: relative;
+    left: 270px;
+    top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.Bolo3{
+    position: relative;
+    bottom: 5px;
+    border-style:groove;
+    border-color: white;
+    border-width: 10px;
+    position: relative;
+    right: 10px;
+}
+
+.Prestígio{
+    position: relative;
+    right: 300px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: white;
+}
+
+.Preço3{
+    position: relative;
+    right: 420px;
+    top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.Bolo4{
+    position: relative;
+    bottom: 5px;
+    border-style:groove;
+    border-color: orange;
+    border-width: 10px;
+    position: relative;
+    right: 13px;
+}
+
+.Churros{
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: orange;
+}
+
+.Preço4{
+    position: relative;
+    left: 275px;
+    top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+/*Fim da seção 2 */
+
+/*Seção 3: Tortas */
+
+.Tortas{
+    margin-top: 460px;
+}
+
+.P2{
+    font-size: 50px;
+}
+
+.Torta1{
+    border-style:groove;
+    border-color: green;
+    border-width: 10px;
+}
+
+.Limão{
+    position: relative;
+    right: 310px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: green;
+}
+
+.Preço5{
+    position: relative;
+    right: 420px;
+    top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.Torta2{
+    border-style:groove;
+    border-color: red;
+    border-width: 10px;
+}
+
+.Maçã{
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: red;
+}
+
+.Preço6{
+    position: relative;
+    left: 275px;
+    top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+/*Fim da seção 3 */
+
+/*Seção 4: Outros Doces */
+
+.Outros{
+    margin-top: 400px;
+}
+
+.P3{
+    font-size: 50px;
+}
+
+.Outros1{
+    border-style:groove;
+    border-color: midnightblue;
+    border-width: 10px;
+}
+
+.Mini{
+    position: relative;
+    right: 310px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: midnightblue;
+}
+
+.Preço-Mini{
+    position: relative;
+    right: 400px;
+    top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.Outros2{
+    border-style:groove;
+    border-color: palevioletred;
+    border-width: 10px;
+}
+
+.Donuts{
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+    font-size: x-large;
+    font-family: Bubble;
+    color: rgb(185, 98, 127);
+}
+
+.Preço-Donuts{
+    position: relative;
+    left: 270px;
+    top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+/*Fim da seção 4 */
+
+/*Seção 5: Scrollbar e Estrutura final */
+
+*::-webkit-scrollbar {
+    width: 15px;
+    height: 0px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: cyan;
+    border-radius: 10px;
+    border: 3px solid #ff009d;
+}
+
+.Fim-Card{
+    background-color: palegreen;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    top: 100px;
+}
+
+/*Fim da seção 5 */
+
+/*Fim da categoria 2 */

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/atendimento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body class="Corpo-Atend">
+    <header>
+        <h1>Atendimento</h1>
+        <br>
+        <nav>
+            <ul>
+                <li class="Icone5"><a href="index.html"><img class="Card" src="src/imagens/pagina-inicial.png" alt="Icone-Inicial"></a></li>
+                <li class="Icone6"><a href="cardapio.html"><img class="Cont" src="src/imagens/cardapio.png" alt="Icone-cardápio"></a></li>
+                <br>
+                <span class="Desc5">Início</span>
+                <span class="Desc6">Cardápio</span>
+            </ul>
+        </nav>
+    </header>
+    <center>
+    <h2>Bem vindo a página de atendimento.</h2>
+    <img class="icone-centralizado" src="/src/imagens/icone.png" alt="icone">
+</center>
+<br>
+<br>
+    <main>
+            <button class="Botão-mostrar" id="Mostrar">
+            <img class="Ícone-pedido"src="src/imagens/pedido.png" alt="Ícone-pedido" width="
+            100px">
+            <br>
+            <span>Clique aqui para Iniciar seu pedido!</span>
+        </button>
+        <section class="Seção-Ped" id="Seção-Pedido">
+            <h3>Realize seu pedido</h3>
+            <p>Entre em contato conosco para esclarecer suas dúvidas:</p>
+            <p>Email: contato.pontogourmet@gmail.com</p>
+            <p>Telefone: (41) 99151-2944</p>
+            <form id="pedidoForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="produtos">Escolha um Produto:</label>
+                <select id="Produto" name="Produto">
+                    <option value="Bolo de Chocolate">Bolo de Chocolate</option>
+                    <option value="Bolo de Morango">Bolo de Morango</option>
+                    <option value="Bolo de Prestígio">Bolo de Prestígio</option>
+                    <option value="Bolo de Churros">Bolo de Churros</option>
+                    <option value="Torta de Limão">Torta de Limão</option>
+                    <option value="Torta de Maçã">Torta de Maçã</option>
+                    <option value="Mini Torta">Mini Torta</option>
+                    <option value="Donuts">Donuts</option>
+                </select>
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" required>
+                <button type="submit">Fazer Pedido</button>
+            </form> 
+            <p id="mensagem"></p>
+        </section>
+    </main>
+    <footer class="Fim-Con">
+        <p class="Logo">&copy; 2023 Ponto Gourmet</p>
+    </footer>
+    <script src="src/js/atendimento.js"></script>
+</body>
+</html>

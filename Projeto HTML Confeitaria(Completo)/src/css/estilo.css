@@ -1,0 +1,167 @@
+/*Categoria 1: Ínicio e Cabeçalho*/
+html{
+    scroll-behavior: smooth;
+}
+
+.Corpo-Index{
+    background-image: url("/src/imagens/fundo-index.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+h1{
+    margin-right: 20px;
+    font-family: Bubble;
+}
+
+body, h1, h2, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Icone1{
+    display: inline;
+    position: relative;
+    right: 40px;
+}
+
+.Icone2{
+    display: inline;
+    position: relative;
+    left: 50px;
+}
+
+.Card{
+    width: 50px;
+}
+
+.Cont{
+    width: 50px;
+}
+
+.Desc1{
+    position: relative;
+    right: 17px;
+    font-family: Bubble;
+    color: cyan;
+    font-size: large;
+}
+
+.Desc2{
+    position: relative;
+    left: 40px;
+    font-family: Bubble;
+    color: cyan;
+    font-size: large;
+}
+
+/* Fim da categoria 1*/
+
+/*Categoria 2: Estrutura geral*/
+
+h2{
+    font-size: xx-large;
+    font-family: Bubble;
+}
+
+.Sobre{
+    position: relative;
+    top: 100px;
+}
+
+h3{
+    font-size: x-large;
+    font-family: Bubble;
+    color: rgb(233, 107, 61);
+}
+
+.Aspectos{
+    position: relative;
+    top: 190px;
+}
+
+.Asp-Lista{
+    font-size: large;
+    color:red;
+    font-family: Bubble;
+}
+
+/*Fim da categoria 2*/
+
+/*Categoria 3: Estrutura final */
+
+*::-webkit-scrollbar {
+    width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: cyan;
+    border-radius: 10px;
+    border: 3px solid #ff009d;
+}
+
+.Fim-Index{
+    background-color: palegreen;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 300px;
+}
+
+.Logo{
+    font-size: large;
+    color:black;
+    font-family: Bubble;
+}
+
+@font-face {
+    font-family: Bubble;
+    src: url(/src/fontes/bubble_bobble/Bubble-Bobble.otf);
+}
+
+/*Fim da categoria 3*/
+
+/* Estilo para a seção de promoções */
+.promocoes {
+    padding: 20px;
+    text-align: center;
+}
+
+.promocoes h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.oferta {
+    margin: 20px;
+    padding: 10px;
+}
+
+.Oferta1,.Oferta2,.Oferta3{
+    border-radius: 5px;
+    border-style: inset;
+    border-width: 7px;
+    border-color: red black;
+}
+
+.oferta p {
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Amatic SC;color: #8B0000;
+}
